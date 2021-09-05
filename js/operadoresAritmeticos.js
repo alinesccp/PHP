@@ -1,5 +1,4 @@
-var subtotal = (13
-    +1)*5;
+var subtotal = (13+1)*5;
 var frete = 0.5 * (13+1);
 var total = subtotal + frete;
 
