@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
 
 body{
-    background-color: pink;
+    background-color:coral;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
 }
@@ -16,7 +16,6 @@ body{
     font-family: 'Allison', cursive;
     text-shadow: #000 2px 2px;
 }
-
 
 /*Esse é um comentário CSS
 h1{
