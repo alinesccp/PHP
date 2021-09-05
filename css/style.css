@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
 
 body{
-    background-color:coral;
+    background-color: coral;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
 }
@@ -20,8 +20,8 @@ body{
 /*Esse é um comentário CSS
 h1{
     font-family: 'Roboto Slab', serif;
-    font-size: 24px;
-	color: #FFFFFF;
+    font-size: 52px;
+    color: #FFFFFF;
     padding-top: 10%;
     padding-bottom: 10%;
     text-shadow: #000000 2px 2px;
@@ -29,21 +29,21 @@ h1{
 }
 
 header{
-	display: block;
-	height: 400px;
-	text-align: center;
-	background-image: url(../img/livraria_banner_7000x3000_sem_fundo.jpg);
+    display: block;
+    height: 400px;
+    text-align: center;
+    background-image: url(../img/livraria_banner_7000x3000_sem_fundo.jpg);
     background-position: center;
-	background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-blend-mode: screen;
-    background-color: crimson;
+    background-color: coral;
 }
 
 .menu-principal{
     width:100%;
-    background-color: salmon;
+    background-color: coral;
     height: 50px;
 }
 
@@ -51,13 +51,13 @@ header{
     display: block;
     height: 400px;
     background-image: url(../img/livraria.jpeg);
-    background-color: darkorange;
+    background-color: coral
 }
 
 #clubetraca{
     display: block;
     height: 400px;
-    background-color: darksalmon;
+    background-color: coral;
 }
 
 #contato{
@@ -72,28 +72,28 @@ h2{
     font-weight: bold;
     text-align: center;
 }
-
+Código substituido pelo Bootstrap
 nav ul{
-	list-style-type: none;
+    list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: salmon;
+    background-color:coral;
     position: sticky;
     top: 0;
 }
 
 nav ul li{
-	display: inline-block;
+    display: inline-block;
     padding: 2px;
     font-size: 17px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 nav ul li a{
-	display: block;
-	background-color: salmon;
-	text-align: center;
+    display: block;
+    color: white;
+    text-align: center;
     padding: 16px 20px;
     text-decoration: none;
 }
@@ -104,13 +104,13 @@ nav ul li a:link, a:visited{
 
 nav ul li a:hover{
     color: #000000;
-    background-color: palevioletred;
+    background-color: coral;
 }
 
 footer{
     text-align: center;
     padding-top: 100px;
     height: 200px;
-    background-color: chocolate;
+    background-color: coral;
     color: #FFFFFF;
 }*/
