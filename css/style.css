@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
 
 body{
-    background-color: coral;
+    background-color: rgb(243, 179, 96);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
 }
@@ -17,100 +17,27 @@ body{
     text-shadow: #000 2px 2px;
 }
 
-/*Esse é um comentário CSS
-h1{
-    font-family: 'Roboto Slab', serif;
-    font-size: 52px;
-    color: #FFFFFF;
-    padding-top: 10%;
-    padding-bottom: 10%;
-    text-shadow: #000000 2px 2px;
-
-}
-
-header{
-    display: block;
-    height: 400px;
-    text-align: center;
-    background-image: url(../img/livraria_banner_7000x3000_sem_fundo.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-blend-mode: screen;
-    background-color: coral;
-}
-
-.menu-principal{
-    width:100%;
-    background-color: coral;
-    height: 50px;
-}
-
-#quemsomos{
-    display: block;
-    height: 400px;
-    background-image: url(../img/livraria.jpeg);
-    background-color: coral
-}
-
-#clubetraca{
-    display: block;
-    height: 400px;
-    background-color: coral;
-}
-
-#contato{
-    display: block;
-    height: 400px;
-    background-color: coral;
-}
-
 h2{
     padding-top: 18px;
     font-size: 28px;
     font-weight: bold;
+    text-shadow: white 1px 1px;
     text-align: center;
-}
-Código substituido pelo Bootstrap
-nav ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color:coral;
-    position: sticky;
-    top: 0;
+    color: black;
 }
 
-nav ul li{
-    display: inline-block;
-    padding: 2px;
-    font-size: 17px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-nav ul li a{
-    display: block;
-    color: white;
+h3{
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    font-weight: lighter;
     text-align: center;
-    padding: 16px 20px;
-    text-decoration: none;
+    color:black;
+    text-shadow: white 1px 1px;
 }
 
-nav ul li a:link, a:visited{
-    color: #FFFFFF;
-}
-
-nav ul li a:hover{
-    color: #000000;
-    background-color: coral;
-}
-
-footer{
+h6{
+    font-family: 'Arial', cursive;
     text-align: center;
-    padding-top: 100px;
-    height: 200px;
-    background-color: coral;
-    color: #FFFFFF;
-}*/
+    color: black;
+    text-shadow: white 1px 1px;
+}
