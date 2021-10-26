@@ -8,123 +8,53 @@
         <title>Livraria Traça Livros</title>
     </head>
     <body>
-        <header class="container-fluid">
-          <div id="carousel" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="img/livraria_banner_1920x600.jpg" class="d-block w-100" alt="Mulher na Academia Firme&Forte">
-              </div>
-            </div>
-        </div>
+        <header>
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link active text-black" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link active text-black" href="cadastro-clube.html">Cliente</a>
+                    </li>
+                  <li class="nav-item">
+                      <a class="nav-link text-black" href="cadastro-livro.html">Livros</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link text-black" href="cadastro-editora.html">Editoras</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link text-black" href="cadastro-contato.html">Contato</a>
+                  </li>
+            </ul>
+        </nav>
         </header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-warning sticky-top p-3">
-          <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-              <a class="navbar-brand" href="#">Traças Livros</a>
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#principal">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#quemsomos">Quem Somos</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#clubetraca">Clube da Traça</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#contato">Contato</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>        
+                
             <main class="container-fluid">
                 <section class="row mx-5 mt-3 p-3 mb-3 bg-white rounded">
-                    <form action="#" method="get">
+                    <form action="cadastro-script.php" method="POST">
                         <h4 class="mb-3">Dados da Editora</h4>
                         <div class="col mb-3">
-                            <label for="nome" class="form-label text-black ">Nome da Editora</label>
-                            <input type="text" class="form-control" id="nome" name="nome" placeholder="Digite o nome da editora" required>
+                        <label for="nome" class="form-label text-black ">Nome da Editora</label>
+                            <input type="text" class="form-control" id="nome_editora" name="nome_editora" placeholder="Digite o nome da editora" required>
                         </div>
                         <div class=" row mb-3">
                             <div class="col-lg-6 col-sm-12 mb-3">
-                                <label for="email" class="form-label">E-mail</label>
-                                <input type="email" class="form-control" id="email" name="email" placeholder="nome@dominio.com" required>
-                            </div>
-                            <div class="col-lg-6 col-sm-12 mb-3">
-                                <label for="telefone" class="form-label">Telefone</label>
-                                <input type="tel" class="form-control" id="telefone" name="telefone" maxlength="11" placeholder="Somente números mais o DDD" required>
-                            </div>
-                        </div>
-                        <div class=" row mb-3">
-                            <div class="col-lg-6 col-sm-12 mb-3">
-                                <label for="endereco" class="form-label">Endereço</label>
+                            <label for="endereco" class="form-label">Endereço</label>
                                 <input type="text" class="form-control" id="endereco" name="endereco" placeholder="Digite o endereço" required>
                             </div>
                             <div class="col-lg-6 col-sm-12 mb-3">
-                                <label for="cep" class="form-label">CEP</label>
-                                <input type="text" class="form-control" id="cep" name="cep" maxlength="8" placeholder="Somente números" required>
-                            </div>                    
-                            
+                                <label for="telefone" class="form-label">Telefone</label>
+                                <input type="tel" class="form-control" id="telefone" name="tel_editora" maxlength="11" placeholder="Somente números mais o DDD" required>
+                            </div>
                         </div>
-                        <div class=" row mb-3">
-                            <div class="col-lg-6 col-sm-12 mb-3">
-                                <label for="bairro" class="form-label">Bairro</label>
-                                <input type="text" class="form-control" id="bairro" name="bairro" placeholder="Bairro" required>
-                            </div>
-                            <div class="col-lg-6 col-sm-12 mb-3">
-                                <label for="end_numero" class="form-label">Número</label>
-                                <input type="text" class="form-control" id="end_numero" name="end_numero" placeholder="Somente números" required>
-                            </div>
                         
-                        </div>
-                    <div class=" row mb-3">
-                        <div class="col-lg-6 col-sm-12 mb-3">
-                            <label for="estado" class="form-label">Estado</label>
-                            <select class="form-select" id="estado" name="estado" required>
-                                <option selected>Selecione uma opção</option>
-                                <option value="AC">Acre</option>
-                                <option value="AL">Alagoas</option>
-                                <option value="AP">Amapá</option>
-                                <option value="AM">Amazonas</option>
-                                <option value="BA">Bahia</option>
-                                <option value="CE">Ceará</option>
-                                <option value="DF">Distrito Federal</option>
-                                <option value="ES">Espírito Santo</option>
-                                <option value="GO">Goiás</option>
-                                <option value="MA">Maranhão</option>
-                                <option value="MT">Mato Grosso</option>
-                                <option value="MS">Mato Grosso do Sul</option>
-                                <option value="MG">Minas Gerais</option>
-                                <option value="PA">Pará</option>
-                                <option value="PB">Paraíba</option>
-                                <option value="PR">Paraná</option>
-                                <option value="PE">Pernambuco</option>
-                                <option value="PI">Piauí</option>
-                                <option value="RJ">Rio de Janeiro</option>
-                                <option value="RN">Rio Grande do Norte</option>
-                                <option value="RS">Rio Grande do Sul</option>
-                                <option value="RO">Rondônia</option>
-                                <option value="RR">Roraima</option>
-                                <option value="SC">Santa Catarina</option>
-                                <option value="SP">São Paulo</option>
-                                <option value="SE">Sergipe</option>
-                                <option value="TO">Tocantins</option>
-                            </select>
-                        </div>
-                        <div class="col-lg-6 col-sm-12 mb-3">
-                            <label for="cidade" class="form-label">Cidade</label>
-                            <input type="text" class="form-control" id="cidade" name="cidade" placeholder="Cidade" required>
-                        </div>
-                </div>
-                <div align= "center">
+                <div text-center>
                     <div class="col-lg-4 col-sm-12 mb-3">
                         <input type="submit" value="Cadastrar" class="btn btn-outline-warning btn-lg">
                     </div>
+                </div>  
                 </div>
+                
             </form>
         </section>
     </main>

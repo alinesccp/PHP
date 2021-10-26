@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
 
 body{
-    background-color: rgb(243, 179, 96);
+    background-color: tomato;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
 }
@@ -33,6 +33,11 @@ h3{
     text-align: center;
     color:black;
     text-shadow: white 1px 1px;
+}
+
+h4{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:tomato
 }
 
 h6{
